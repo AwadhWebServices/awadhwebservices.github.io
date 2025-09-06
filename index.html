@@ -9,9 +9,20 @@
     header, footer { background:#2563EB; color:white; padding:20px; text-align:center; }
     main { padding:40px 20px; max-width:900px; margin:auto; }
     h1 { margin:0; font-size:28px; }
-    h2 { color:#2563EB; }
+    h2 { color:#2563EB; margin-top:40px; }
     .tagline { font-size:16px; color:#0EA5A5; margin-top:5px; }
     .card { background:#f9f9f9; padding:20px; border-radius:8px; margin:20px 0; }
+    
+    /* Founder Note */
+    .founder-note {
+      background: #e0f2fe; /* light blue */
+      border-left: 5px solid #2563EB;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      font-style: italic;
+      color: #1F2937;
+    }
 
     /* New Navigation Strip */
     .top-nav {
@@ -31,10 +42,10 @@
 
     /* Update Marquee Strip */
     .update-strip {
-      background-color: white; /* Same blue as header */
-      color: red;
+      background-color: #2563EB;
+      color: white;
       padding: 5px 0;
-      /*font-weight: bold;*/
+      font-weight: bold;
     }
     .update-strip marquee {
       display: block;
@@ -42,11 +53,6 @@
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Awadh Web Services</h1>
-    <div class="tagline">Web Development & Digital Solutions</div>
-  </header>
 
   <!-- Top black navigation strip -->
   <div class="top-nav">
@@ -58,19 +64,31 @@
   <!-- Blue running update strip -->
   <div class="update-strip">
     <marquee behavior="scroll" direction="left" scrollamount="6">
-      Update: Openings for Web Developers, Designers, and Interns! | Celebrate Ganesh Chaturthi with Awadh Web Services!
+      Update: Awadh Web Services is ready to boost your business online! Get modern, responsive websites, digital solutions for clinics, and custom web apps tailored to your needs. Enjoy special Ganesh Chaturthi offers on our services — perfect time to enhance your online presence! | We are also hiring! Exciting openings available for Web Developers, UI/UX Designers, Graphic Designers, and Interns. Join our growing team and work on cutting-edge projects.| Stay tuned for upcoming workshops, webinars, and tips on web development, design trends, and digital marketing. Contact us anytime at awadhwebservices@gmail.com for inquiries, collaborations, or support.
     </marquee>
   </div>
-  
+
+  <header>
+    <h1>Awadh Web Services</h1>
+    <div class="tagline">Web Development & Digital Solutions</div>
+  </header>
+
   <main>
     <h2>About Us</h2>
     <p>Awadh Web Services is a growing digital solutions startup based in Ayodhya, Uttar Pradesh. 
-       We specialize in building responsive, user-friendly websites for local businesses and clinics.</p>
+       Our mission is to empower local businesses and clinics by building modern, responsive, and user-friendly websites. 
+       We specialize in creating custom web applications, managing digital presence, and providing innovative solutions tailored to each client’s unique needs.</p>
+
+    <!-- Founder Note -->
+    <div class="founder-note">
+      <strong>Note from our Founder:</strong><br>
+      "At Awadh Web Services, we believe in creating websites that not only look great but also deliver real value to our clients. Our focus is on combining technology with creativity to help businesses grow online. Every project is treated with care, innovation, and dedication. Join us on this journey to make your digital presence exceptional."
+    </div>
 
     <h2>Services</h2>
-    <div class="card"><strong>Website Development:</strong> Modern, responsive websites.</div>
-    <div class="card"><strong>Digital Presence for Clinics:</strong> Appointment forms, maps, and more.</div>
-    <div class="card"><strong>Custom Solutions:</strong> Tailored web apps to meet business needs.</div>
+    <div class="card"><strong>Website Development:</strong> Modern, responsive websites tailored to your business needs.</div>
+    <div class="card"><strong>Digital Presence for Clinics:</strong> Appointment forms, maps, and interactive features for patients.</div>
+    <div class="card"><strong>Custom Solutions:</strong> Tailored web applications and digital solutions for growing businesses.</div>
 
     <h2>Contact</h2>
     <p>📧 awadhwebservices@gmail.com<br>
@@ -83,4 +101,5 @@
   </footer>
 </body>
 </html>
+
 
