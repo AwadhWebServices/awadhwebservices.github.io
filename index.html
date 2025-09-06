@@ -12,9 +12,51 @@
     h2 { color:#2563EB; }
     .tagline { font-size:16px; color:#0EA5A5; margin-top:5px; }
     .card { background:#f9f9f9; padding:20px; border-radius:8px; margin:20px 0; }
+
+    /* New Navigation Strip */
+    .top-nav {
+      background-color: #000; /* Black strip */
+      text-align: center;
+      padding: 10px 0;
+    }
+    .top-nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .top-nav a:hover {
+      color: #0EA5A5; /* Accent on hover */
+    }
+
+    /* Update Marquee Strip */
+    .update-strip {
+      background-color: #2563EB; /* Same blue as header */
+      color: white;
+      padding: 5px 0;
+      font-weight: bold;
+    }
+    .update-strip marquee {
+      display: block;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Top black navigation strip -->
+  <div class="top-nav">
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Blue running update strip -->
+  <div class="update-strip">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+      Update: Openings for Web Developers, Designers, and Interns! | Celebrate Ganesh Chaturthi with Awadh Web Services!
+    </marquee>
+  </div>
+
   <header>
     <h1>Awadh Web Services</h1>
     <div class="tagline">Web Development & Digital Solutions</div>
@@ -41,3 +83,4 @@
   </footer>
 </body>
 </html>
+
